@@ -1,209 +1,131 @@
-# Awesome-Global-Compliance-Management
+# Awesome Global Compliance Management [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-## Top Global Compliance Management Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Regulatory Change Tracking, Control Mapping & Multi-Jurisdictional Compliance*  
+> A curated list of leading Enterprise SaaS platforms and open-source software tools for **Global Compliance Management**, **GRC (Governance, Risk, and Compliance)**, **Regulatory Change Tracking**, **Continuous Control Monitoring**, and **Multi-Jurisdictional Audit Readiness** (GDPR, ISO 27001, SOC 2, HIPAA, FedRAMP, NIS2, DORA).
 
 **Last updated: October 2026**
 
+---
 
+## Sector Overview & Market Dynamics
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Global Compliance Management**. These tools enable organizations to monitor regulatory changes across jurisdictions, map requirements to internal controls, manage policy lifecycles, and maintain audit-ready evidence—ensuring compliance with frameworks like GDPR, ISO 27001, SOC 2, NIS2, DORA, and industry-specific regulations.
-
-
-
-**Examples** include Workday Global Compliance, Diligent, MetricStream, Archer, Workiva, SAI360, OneTrust, LogicGate, Compliance.ai, and RadarFirst (the category leaders).
-
-
-
-**Open-source emphasis**: Global Compliance Management is a domain where open-source tooling is **emerging but fragmented**. The strongest active projects are **Cairn** (self-hosted GRC with multi-framework compliance and regulatory incident clocks) and **Comp AI** (SOC 2, ISO 27001, HIPAA, GDPR automation). For regulatory change monitoring specifically, **GRCX** provides a focused radar for financial services regulators. Other projects address compliance-as-code, policy enforcement, or framework-specific automation. No single open-source platform matches the full global compliance breadth of OneTrust or MetricStream, but Cairn and Comp AI provide credible self-hosted foundations.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Workday Global Compliance](https://www.workday.com/)**  
-
-  Compliance capabilities within Workday's financial and HCM suites, covering SOX compliance, audit trails, policy management, and regulatory reporting integrated with financial and workforce data.
-
-
-
-- **[Diligent](https://www.diligent.com/)**  
-
-  Diligent One Platform integrates governance, risk, and compliance with modules for board management, risk assessment, internal controls, audit management, and compliance tracking; provides analytics and customizable dashboards for transparency in managing risks and meeting compliance obligations.
-
-
-
-- **[MetricStream](https://www.metricstream.com/)**  
-
-  AI-powered GRC platform recognized as a Category Leader across all seven GRC categories by Chartis Research; features continuous risk sensing, AI assistants for compliance workflows, autonomous evidence gathering, and regulatory change management.
-
-
-
-- **[Archer](https://www.archerirm.com/)**  
-
-  Enterprise GRC platform with integrated risk register, regulatory compliance mapping, third-party risk governance, and audit-ready evidence with timestamped trails; serves 1,500+ customers across 48 countries.
-
-
-
-- **[Workiva](https://www.workiva.com/)**  
-
-  Financial compliance and SEC reporting platform with ICFR and SOX compliance capabilities; provides a single source of truth with data traceability and streamlined audit interactions.
-
-
-
-- **[SAI360](https://www.sai360.com/)**  
-
-  GRC platform with regulatory change management, policy management, and compliance training integration for regulated industries.
-
-
-
-- **[OneTrust](https://www.onetrust.com/)**  
-
-  GRC platform named a Leader in the IDC MarketScape for Worldwide GRC Software 2025; unifies privacy, AI governance, risk management, and third-party monitoring with automated processes and AI-powered data governance; trusted by 14,000+ global brands.
-
-
-
-- **[LogicGate](https://www.logicgate.ai/)**  
-
-  AI GRC platform with GRC Agents for ERM, TPRM, AI Governance, and Business Continuity Management; features Automated Control Testing and upcoming MCP Server Access for natural language Risk Cloud queries.
-
-
-
-- **[Compliance.ai](https://www.compliance.ai/)**  
-
-  Regulatory intelligence platform that aggregates and classifies regulatory content from thousands of sources, mapping changes to organizational policies and controls.
-
-
-
-- **[RadarFirst](https://www.radarfirst.com/)**  
-
-  Incident response and compliance platform with automated risk assessment for privacy and security incidents, including regulatory notification decisioning.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Cairn](https://github.com/frousselet/cairn)**  
-
-  Self-hosted GRC platform (GNU AGPL) covering governance (ISO 27001 clause 4 context), assets with CIA valuation, risk management using ISO 27005 and EBIOS RM, **compliance frameworks with audits and a nonconformity register**, and incidents with sealed evidence and **statutory notification clocks (GDPR, NIS2, DORA)** . Features inter-framework mappings so requirements can be reused across standards, a public Trust Center page, and steering dashboards with PDF/DOCX/PPTX/XLSX reports. Every feature is API-accessible via REST and built-in MCP server; optional AI (off by default) supports Mistral, OpenAI, Claude, or local Ollama. Single-container Docker deployment. **Governance is enforced through permissioned state transitions that leave audit trails**—not status dropdowns . **The most comprehensive open-source global compliance foundation** for organizations needing multi-framework tracking with regulatory incident management.
-
-
-
-- **[Comp AI (Community Edition)](https://github.com/trycompai/comp)**  
-
-  Free, open-source compliance automation platform (AGPLv3) for **SOC 2, ISO 27001, HIPAA, and GDPR**; automates evidence collection, policy management, and control implementation while keeping data on your infrastructure . Community Edition is self-hosted; Comp AI Cloud is a separate managed product with additional capabilities. **Strongest for SaaS companies pursuing standard certifications**, with automated evidence collection reducing audit preparation burden.
-
-
-
-- **[GRCX](https://github.com/grcx-dev/grcx)**  
-
-  Open-source **regulatory radar for financial services compliance teams**; monitors publications from **BoE, FCA, MAS, SEC, and ESMA** via IMAP/RSS/HTTP feeds, maps each new publication to your control frameworks using an LLM, assesses severity, and surfaces a prioritized queue . Built-in frameworks include ISO 27001, FCA SYSC, MAS TRM, NIST CSF, BCBS 239, and SOC 2; custom frameworks via YAML. Writes every detection and assessment to a **cryptographically chained audit log (SHA-256, append-only, verifiable)**. Every assessment is subject to human override . **The only open-source regulatory change monitoring tool**—focused on financial services but the pattern is extensible.
-
-
-
-- **[Probo](https://github.com/getprobo/probo)**  
-
-  Self-hostable GRC platform (ISC licensed) for SOC 2, GDPR, and ISO 27001; covers risk registers, control tracking, vendor risk, data privacy (DPIA/TIA), access reviews, audit programs, and document approval workflows . Exposes 270+ MCP tools for AI agent automation, `prb` CLI with 44+ command groups, GraphQL API, and n8n community node. Docker-deployable with policy-based RBAC and immutable audit logs. **Strong for engineering-led compliance automation**, though less focused on multi-jurisdictional regulatory change tracking than Cairn or GRCX.
-
-
-
-- **[Openlane](https://github.com/theopenlane/core)**  
-
-  Open-source compliance automation alternative to Vanta, Drata, and Secureframe (Apache-2.0); supports **SOC 2, GDPR, ISO 27001, NIST 800-53, and more** . Security features like SSO and 2FA enforcement ship with every module rather than sitting behind an enterprise tier. Runs on Go, PostgreSQL, Redis, and OpenFGA without requiring a pile of SaaS dependencies. **Fully permissive licensing** (Apache-2.0) distinguishes it from AGPL alternatives.
-
-
-
-- **[Evidentia](https://github.com/Polycentric-Labs/evidentia)**  
-
-  Open-source GRC platform built for **FedRAMP High, CMMC Level 2, and EU sovereign-cloud deployments**; uses **OSCAL** (NIST's open standard) for inputs and outputs, ensuring data portability . Features 89 bundled frameworks, CI-native gap analysis via GitHub Action that runs on every PR and blocks merge on compliance regression, AI-optional risk statement generation via LiteLLM, and GPG/Sigstore evidence signing . **Library-first architecture** (Python library → CLI → REST API) supports embedding compliance checks into engineering workflows.
-
-
-
-- **[Conformiti](https://github.com/dboudreau00/Conformiti)**  
-
-  Open-source GRC compliance tool for SaaS products managing the full audit lifecycle; ships with **SOC 2, ISO 27001:2022, and PCI DSS v4.0.1** control libraries (217 controls), evidence folder trees segregated by control, role-based document access, review scheduling with email reminders (IMAP/POP3 + SMTP or Amazon SES), analytics dashboards, risk register with CSV/XLSX import, and **immutable audit trail with in-app viewer** . Django/React stack with Docker deployment. **Strong for organizations running multiple concurrent audits** with document-heavy evidence workflows.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **ARKA Protocol Core** — Open-source compliance engine that transforms regulatory requirements into executable, auditable logic using a declarative DSL; features multi-chain audit trail anchoring (Ethereum, Solana, Cosmos) and plugin architecture; Apache-2.0 licensed . **Rule-engine focused**—for building compliant applications rather than managing organizational compliance programs.
-
-- **Noreli North Advanced Compliance** — Comprehensive GRC built natively on Frappe/ERPNext; features control management with COSO alignment, risk register with inherent/residual scoring, knowledge graph for control-risk relationships, and optional AI for anomaly detection; supports SOX 404, COSO, COBIT 2019, ISO 27001, GDPR, HIPAA, and PCI-DSS . **Best for organizations already on ERPNext** seeking integrated compliance workflows.
-
-- **Open Policy Agent (OPA)** — Policy engine for cloud-native environments using Rego declarative language; enforces compliance policies across Kubernetes, Istio, Envoy, and infrastructure . **Policy-as-code focused**—for runtime enforcement rather than compliance management.
-
-- **Compliance Masonry** — CLI tool for constructing System Security Plans (SSP) and compliance documentation from machine-readable OpenControl YAML files; supports NIST 800-53 and multi-framework mappings . **Documentation-generation focused**.
-
-
-
-**Frameworks for building custom systems**: Combine **Cairn** for multi-framework compliance tracking with regulatory incident clocks and audit trails, **GRCX** for regulatory change monitoring (financial services regulators), **Comp AI** or **Openlane** for SOC 2/ISO 27001 automation, and **Evidentia** for CI-native compliance-as-code with OSCAL portability in a self-hosted global compliance management stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Global compliance platforms handling regulatory data and audit evidence must comply with applicable regulations in every jurisdiction of operation; evidence integrity and audit trails are critical for regulatory defensibility.
-
-- **Open-source global compliance remains fragmented**—Cairn provides the strongest multi-framework foundation with regulatory incident management, GRCX addresses regulatory change monitoring for financial services, and Comp AI/Openlane focus on standard certification automation. No single open-source platform matches OneTrust or MetricStream's full breadth across privacy, ethics, third-party risk, and multi-jurisdictional regulatory intelligence. Organizations requiring comprehensive global compliance should evaluate commercial platforms or plan for integration across multiple open-source components.
-
-- Verify license terms for commercial use; Cairn uses GNU AGPL , Comp AI uses AGPLv3 , GRCX is open-source , Probo uses ISC , Openlane uses Apache-2.0 , and Evidentia is open-source .
-
-
+The global Governance, Risk, and Compliance (GRC) and enterprise compliance software market is estimated at **$51 billion to $65 billion in 2025** and projected to exceed **$70 billion to $80+ billion by 2026–2027**, expanding at a 10%–14% CAGR (with automated compliance sub-segments expanding at over 25% annually). The sector is **moderately to highly fragmented** rather than winner-take-all: no single vendor commands more than 5% global market share, with the landscape divided between legacy enterprise GRC suites (MetricStream, Archer, Diligent), specialized domain leaders (Workiva for financial/SOX/SEC reporting, OneTrust for privacy/consent), and modern continuous compliance automation challengers (Vanta, Drata, Comp AI).
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS / Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Frameworks for Building Custom Systems](#frameworks-for-building-custom-systems)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for compliance officers, regulatory affairs teams, GRC analysts, and legal operations leaders.**  
+---
 
-Let's make global compliance management more open, auditable, and jurisdiction-aware.
+## SaaS / Hosted Platforms
+
+Leading enterprise cloud platforms sorted in descending order by enterprise company scale (market capitalization / valuation / annual revenue).
+
+| Platform | Enterprise Scale (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits | Key Capabilities & Compliance Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Workday Global Compliance](https://www.workday.com/)** | **~$50.6B Market Cap** (~$8.4B ARR) | From **$100,000/year** (core HCM packages typically $35–$100/user/month; enterprise annual contracts scale from $100k+ to $2M+) | **No free tier or trial for core HCM/Compliance suite** (custom sales POC only; 30-day trial available only for Workday Adaptive Planning) | Enterprise ERP/HCM compliance suite covering SOX internal controls, audit trails, policy management, workforce governance, and multi-country regulatory reporting. |
+| **[Diligent](https://www.diligent.com/)** | **~$7.0B Valuation** (~$600M ARR) | From **$5,000/year** (basic board portal/governance modules start at $5k/yr; median enterprise GRC deployments range $15,000–$35,000+/year) | **No self-serve free trial or free tier** (facilitated product demos and guided pilot sandboxes available via sales consultation) | Diligent One Platform unifies governance, risk, and compliance with modules for board management, risk assessments, internal controls, audit tracking, and ESG reporting. |
+| **[Workiva](https://www.workiva.com/)** | **~$4.4B Market Cap** (~$885M Annual Revenue) | From **$35,000/year** (baseline solution bundles start at $35k–$60k/yr; enterprise multi-entity reporting routinely exceeds $100k+/year) | **No free trial or free tier** (sales-led guided demonstration and custom evaluation environments provided upon request) | Regulatory reporting and financial compliance platform with ICFR, SOX compliance, ESG disclosures, and SEC filing automation with verifiable audit data linkage. |
+| **[OneTrust](https://www.onetrust.com/)** | **~$4.5B Valuation** (~$550M ARR) | From **$10,000/year** (enforces a $10k annual spend floor; privacy/cookie modules start ~$827–$1,100/month; enterprise GRC suites scale $50k–$150k+/year) | **No self-serve free trial or free tier for core platform** (guided proofs of concept available via sales team; basic isolated web inspection utilities free) | Enterprise trust intelligence and GRC platform orchestrating data privacy (GDPR, CCPA), AI governance, third-party risk management (TPRM), and continuous compliance monitoring. |
+| **[Archer](https://www.archerirm.com/)** | **~$2.0B+ Valuation** (~$220M Annual Revenue) | From **$14,000/year** (entry-level single use-case licenses start ~$14k/yr; standard enterprise multi-module IRM suites start at $55,000–$80,000+/year) | **No free trial or free tier** (evaluations require custom scoping calls, proof-of-concept setups, and guided enterprise software demos) | Integrated Risk Management (IRM) platform featuring centralized risk registers, regulatory compliance mapping, automated control monitoring, and audit-ready trails. |
+| **[SAI360](https://www.sai360.com/)** | **~$800M–$1.0B Valuation** (~$150M–$250M ARR) | From **$35,000/year** (core standalone modules start at $35k/yr; full enterprise risk, EHS, and ethics suites range $75,000–$200,000+/year) | **No free trial or free tier** (evaluations conducted exclusively via vendor-guided product walkthroughs and customized pilot configurations) | Unified GRC, Environment Health and Safety (EHS), and ethics platform delivering regulatory change management, policy lifecycles, and integrated employee compliance training. |
+| **[MetricStream](https://www.metricstream.com/)** | **~$478M Valuation** (~$100M+ ARR) | From **$75,000/year** (baseline enterprise modules start at $75k/yr; mid-to-large multi-module deployments range $250k–$750k+/year; named seats $2k–$8k/user/yr) | **No free trial or free tier** (enterprise demonstrations and tailored proof-of-concept sandboxes coordinated via sales engineering) | AI-powered GRC platform recognized across Chartis GRC categories; delivers autonomous evidence collection, regulatory change tracking, cyber risk quantification, and audit management. |
+| **[LogicGate](https://www.logicgate.ai/)** | **~$250M–$300M Valuation** (~$50M ARR) | From **$13,000/year** (entry single-app packages start ~$13k–$14k/yr; median enterprise Risk Cloud deployment is $52,000–$54,000/year based on power users) | **No free trial or free tier** (interactive workflow walkthroughs and custom sandboxes provisioned via sales consultations) | Risk Cloud platform featuring no-code GRC workflow automation, AI GRC agents, automated control testing, vendor risk management (TPRM), and MCP server connectivity. |
+| **[RadarFirst](https://www.radarfirst.com/)** | **~$40M–$60M Valuation** (~$8M–$10M Annual Revenue) | From **$12,000/year** (enterprise incident response packages typically start at $12k–$25k/yr based on incident volume and jurisdiction tier) | **No free trial or free tier** (custom guided product demonstrations and incident evaluation assessments available via sales) | Privacy and security incident response platform with automated multi-jurisdictional breach notification decisioning, statutory compliance clocks, and risk assessment workflows. |
+| **[Compliance.ai](https://www.compliance.ai/)** | **~$20M–$30M Valuation** (~$5M ARR; Archer Subsidiary) | From **$15,000/year** (financial compliance regulatory feeds typically start at $15k–$25k/year based on jurisdictions, regulatory bodies, and seat counts) | **No free trial or free tier** (regulatory intelligence platform access arranged via guided demonstration and pilot access through Archer) | AI regulatory intelligence engine monitoring thousands of global regulatory bodies, classifying legal publications, and mapping statutory changes to organizational internal controls. |
+
+---
+
+## Open-Source GitHub Projects
+
+Curated open-source global compliance, continuous control monitoring, and GRC software repositories, sorted in descending order by GitHub stargazers.
+
+- **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)  
+  Open-source cloud security and compliance posture management tool (Apache-2.0) for AWS, Azure, GCP, and Kubernetes. Automates continuous control assessments against CIS Benchmarks, SOC 2, ISO 27001, HIPAA, GDPR, PCI-DSS, FedRAMP, and NIST 800-53 with audit-ready reporting.
+
+- **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)  
+  General-purpose policy engine (Apache-2.0, CNCF Graduated) enabling policy-as-code and compliance guardrail enforcement across cloud-native environments, Kubernetes admission controllers, microservices, and CI/CD pipelines using the declarative Rego query language.
+
+- **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
+  Static code analysis engine (Apache-2.0) for Infrastructure-as-Code (Terraform, CloudFormation, Kubernetes, Helm, Dockerfile). Scans for compliance regressions and maps cloud infrastructure misconfigurations directly against SOC 2, HIPAA, ISO 27001, and CIS benchmarks before deployment.
+
+- **[Netflix Security Monkey](https://github.com/Netflix/security_monkey)** [![GitHub stars](https://img.shields.io/github/stars/Netflix/security_monkey?style=social&color=white)](https://github.com/Netflix/security_monkey/stargazers)  
+  Foundational open-source monitoring and policy tracking system (Apache-2.0) created by Netflix to inspect multi-account cloud assets, alert on policy changes, track historical drift, and ensure regulatory baseline compliance.
+
+- **[CISA ScubaGear](https://github.com/cisagov/ScubaGear)** [![GitHub stars](https://img.shields.io/github/stars/cisagov/ScubaGear?style=social&color=white)](https://github.com/cisagov/ScubaGear/stargazers)  
+  Cybersecurity and Infrastructure Security Agency (CISA) verification engine for Microsoft 365 security and regulatory compliance. Automatically assesses tenants against CISA baseline policies, NIST SP 800-53 controls, and federal compliance baselines.
+
+- **[Comp AI (Community Edition)](https://github.com/trycompai/comp)** [![GitHub stars](https://img.shields.io/github/stars/trycompai/comp?style=social&color=white)](https://github.com/trycompai/comp/stargazers)  
+  Free, open-source AI-native compliance automation platform (AGPLv3) designed for SOC 2, ISO 27001, HIPAA, and GDPR. Automates audit evidence collection, policy management, and control implementation directly on your self-hosted infrastructure.
+
+- **[Probo](https://github.com/getprobo/probo)** [![GitHub stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)  
+  Self-hostable enterprise GRC platform (ISC licensed) built for SOC 2, GDPR, and ISO 27001. Provides risk registers, vendor risk management (TPRM), data protection impact assessments (DPIA), access reviews, 270+ MCP tools for agent automation, and cryptographically immutable audit logs.
+
+- **[Ansible Lockdown](https://github.com/ansible/ansible-lockdown)** [![GitHub stars](https://img.shields.io/github/stars/ansible/ansible-lockdown?style=social&color=white)](https://github.com/ansible/ansible-lockdown/stargazers)  
+  Automated compliance remediation playbooks (GPLv3) maintaining alignment with DISA STIGs and CIS Benchmark controls across Linux and Windows operating systems. Translates compliance audit requirements into self-healing infrastructure automation.
+
+- **[Compliance Masonry](https://github.com/opencontrol/compliance-masonry)** [![GitHub stars](https://img.shields.io/github/stars/opencontrol/compliance-masonry?style=social&color=white)](https://github.com/opencontrol/compliance-masonry/stargazers)  
+  CLI tool (Apache-2.0) leveraging the OpenControl schema to construct machine-readable System Security Plans (SSP) and compliance documentation. Maps internal organizational controls to NIST 800-53, FedRAMP, and international compliance frameworks.
+
+- **[The Openlane Core](https://github.com/theopenlane/core)** [![GitHub stars](https://img.shields.io/github/stars/theopenlane/core?style=social&color=white)](https://github.com/theopenlane/core/stargazers)  
+  Permissive open-source compliance automation platform (Apache-2.0) serving as a self-hosted alternative to Vanta and Drata. Supports SOC 2, GDPR, ISO 27001, and NIST 800-53 with fine-grained authorization via OpenFGA, Go, and PostgreSQL.
+
+- **[MITRE Heimdall2](https://github.com/mitre/heimdall2)** [![GitHub stars](https://img.shields.io/github/stars/mitre/heimdall2?style=social&color=white)](https://github.com/mitre/heimdall2/stargazers)  
+  Enterprise visual compliance dashboard (Apache-2.0) developed by MITRE for aggregating, viewing, and exporting multi-framework security and compliance evaluation results from InSpec, OpenSCAP, and automated scanners.
+
+- **[MITRE SAF (Security Automation Framework)](https://github.com/mitre/saf)** [![GitHub stars](https://img.shields.io/github/stars/mitre/saf?style=social&color=white)](https://github.com/mitre/saf/stargazers)  
+  CLI and developer toolkit (Apache-2.0) streamlining end-to-end security and compliance validation. Normalizes vulnerability and compliance scanning results across disparate tools into standardized OSCAL and Heimdall data formats.
+
+- **[Conformiti](https://github.com/dboudreau00/Conformiti)** [![GitHub stars](https://img.shields.io/github/stars/dboudreau00/Conformiti)](https://github.com/dboudreau00/Conformiti/stargazers)  
+  Open-source GRC compliance tool for SaaS products managing the full audit lifecycle. Pre-loaded with SOC 2, ISO 27001:2022, and PCI DSS v4.0.1 control libraries (217 controls), document-segregated evidence trees, and an immutable in-app audit trail.
+
+- **[Lula](https://github.com/defenseunicorns/lula)** [![GitHub stars](https://img.shields.io/github/stars/defenseunicorns/lula?style=social&color=white)](https://github.com/defenseunicorns/lula/stargazers)  
+  Compliance-as-code validation engine (Apache-2.0) built on OSCAL (Open Security Controls Assessment Language). Bridges Kubernetes cloud infrastructure state with automated compliance evidence generation and non-conformance detection.
+
+- **[Evidentia](https://github.com/Polycentric-Labs/evidentia)** [![GitHub stars](https://img.shields.io/github/stars/Polycentric-Labs/evidentia?style=social&color=white)](https://github.com/Polycentric-Labs/evidentia/stargazers)  
+  Open-source GRC platform tailored for FedRAMP High, CMMC Level 2, and EU sovereign cloud environments. Native OSCAL architecture with CI-driven gap analysis GitHub Actions, AI-assisted risk statement generation, and Sigstore cryptographic evidence signing.
+
+- **[GRCX](https://github.com/grcx-dev/grcx)** [![GitHub stars](https://img.shields.io/github/stars/grcx-dev/grcx?style=social&color=white)](https://github.com/grcx-dev/grcx/stargazers)  
+  Regulatory radar for financial compliance teams monitoring publications from BoE, FCA, MAS, SEC, and ESMA. Employs LLM-driven control mapping, severity scoring, and a cryptographically chained append-only SHA-256 audit log.
+
+- **[Cairn](https://github.com/frousselet/cairn)** [![GitHub stars](https://img.shields.io/github/stars/frousselet/cairn?style=social&color=white)](https://github.com/frousselet/cairn/stargazers)  
+  Self-hosted GRC platform (GNU AGPL) covering ISO 27001 governance, ISO 27005 risk analysis, inter-framework requirement mapping, Trust Center publishing, REST/MCP agent APIs, and statutory incident notification countdown clocks (GDPR, NIS2, DORA).
+
+---
+
+## Frameworks for Building Custom Systems
+
+To build a production-grade, self-hosted global compliance platform with zero vendor lock-in, combine specialized components:
+
+* **Regulatory Change Tracking & Feed Ingestion:** Use **[GRCX](https://github.com/grcx-dev/grcx)** to monitor global regulatory feeds (FCA, SEC, BoE, ESMA) and map legal updates to internal controls.
+* **Core Governance, Risk & Incident Management:** Deploy **[Cairn](https://github.com/frousselet/cairn)** or **[Probo](https://github.com/getprobo/probo)** for multi-framework compliance management, nonconformity tracking, and statutory incident clocks.
+* **Continuous Control Monitoring & Evidence Automation:** Integrate **[Comp AI](https://github.com/trycompai/comp)**, **[The Openlane Core](https://github.com/theopenlane/core)**, or **[Prowler](https://github.com/prowler-cloud/prowler)** for automated cloud evidence collection across SOC 2, ISO 27001, and HIPAA.
+* **Compliance-as-Code & OSCAL Portability:** Implement **[Evidentia](https://github.com/Polycentric-Labs/evidentia)**, **[Lula](https://github.com/defenseunicorns/lula)**, or **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** for CI/CD pull request gate checks and machine-readable OSCAL evidence signing.
+
+---
+
+## How to Contribute
+
+1. Fork the repository.
+2. Add or update entries in `README.md` keeping the tabular and stargazer sorting standards intact.
+3. Include: Product name, authoritative official link, pricing tier, free tier/trial conditions, and 1–2 factual sentences describing compliance capabilities.
+4. Submit a Pull Request with a concise explanation.
+
+---
+
+## Disclaimer
+
+- This repository is a **community-curated index** created for informational purposes and does not represent an endorsement or legal advisory.
+- Compliance platforms handling sensitive regulatory data, employee records, or audit evidence must strictly observe privacy and residency laws across applicable operating jurisdictions.
+- Verify open-source software licenses before enterprise deployment (licenses range from permissive Apache-2.0/ISC to copyleft GNU AGPLv3).
+
+---
+
+**Built for Chief Compliance Officers (CCO), GRC Directors, Risk Management Engineers, and DevSecOps Teams.**  
+*Empowering organizations with open, transparent, and auditable global compliance management.*
