@@ -54,55 +54,55 @@
 
 ⭐ Curated open-source global compliance, continuous control monitoring, and GRC software repositories, sorted in descending order by GitHub stargazers.
 
-- **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)  
+- **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub_Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)  
   ☁️ Open-source cloud security and compliance posture management tool (Apache-2.0) for AWS, Azure, GCP, and Kubernetes. Automates continuous control assessments against CIS Benchmarks, SOC 2, ISO 27001, HIPAA, GDPR, PCI-DSS, FedRAMP, and NIST 800-53 with audit-ready reporting.
 
-- **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)  
+- **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** [![GitHub_Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)  
   📜 General-purpose policy engine (Apache-2.0, CNCF Graduated) enabling policy-as-code and compliance guardrail enforcement across cloud-native environments, Kubernetes admission controllers, microservices, and CI/CD pipelines using the declarative Rego query language.
 
-- **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
+- **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub_Stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
   🏗️ Static code analysis engine (Apache-2.0) for Infrastructure-as-Code (Terraform, CloudFormation, Kubernetes, Helm, Dockerfile). Scans for compliance regressions and maps cloud infrastructure misconfigurations directly against SOC 2, HIPAA, ISO 27001, and CIS benchmarks before deployment.
 
-- **[Netflix Security Monkey](https://github.com/Netflix/security_monkey)** [![GitHub stars](https://img.shields.io/github/stars/Netflix/security_monkey?style=social&color=white)](https://github.com/Netflix/security_monkey/stargazers)  
+- **[Netflix Security Monkey](https://github.com/Netflix/security_monkey)** [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/security_monkey?style=social&color=white)](https://github.com/Netflix/security_monkey/stargazers)  
   🐒 Foundational open-source monitoring and policy tracking system (Apache-2.0) created by Netflix to inspect multi-account cloud assets, alert on policy changes, track historical drift, and ensure regulatory baseline compliance.
 
-- **[CISA ScubaGear](https://github.com/cisagov/ScubaGear)** [![GitHub stars](https://img.shields.io/github/stars/cisagov/ScubaGear?style=social&color=white)](https://github.com/cisagov/ScubaGear/stargazers)  
+- **[CISA ScubaGear](https://github.com/cisagov/ScubaGear)** [![GitHub_Stars](https://img.shields.io/github/stars/cisagov/ScubaGear?style=social&color=white)](https://github.com/cisagov/ScubaGear/stargazers)  
   🔍 Cybersecurity and Infrastructure Security Agency (CISA) verification engine for Microsoft 365 security and regulatory compliance. Automatically assesses tenants against CISA baseline policies, NIST SP 800-53 controls, and federal compliance baselines.
 
-- **[Comp AI (Community Edition)](https://github.com/trycompai/comp)** [![GitHub stars](https://img.shields.io/github/stars/trycompai/comp?style=social&color=white)](https://github.com/trycompai/comp/stargazers)  
+- **[Comp AI (Community Edition)](https://github.com/trycompai/comp)** [![GitHub_Stars](https://img.shields.io/github/stars/trycompai/comp?style=social&color=white)](https://github.com/trycompai/comp/stargazers)  
   ✨ Free, open-source AI-native compliance automation platform (AGPLv3) designed for SOC 2, ISO 27001, HIPAA, and GDPR. Automates audit evidence collection, policy management, and control implementation directly on your self-hosted infrastructure.
 
-- **[Probo](https://github.com/getprobo/probo)** [![GitHub stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)  
+- **[Probo](https://github.com/getprobo/probo)** [![GitHub_Stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)  
   🛡️ Self-hostable enterprise GRC platform (ISC licensed) built for SOC 2, GDPR, and ISO 27001. Provides risk registers, vendor risk management (TPRM), data protection impact assessments (DPIA), access reviews, 270+ MCP tools for agent automation, and cryptographically immutable audit logs.
 
-- **[Ansible Lockdown](https://github.com/ansible/ansible-lockdown)** [![GitHub stars](https://img.shields.io/github/stars/ansible/ansible-lockdown?style=social&color=white)](https://github.com/ansible/ansible-lockdown/stargazers)  
+- **[Ansible Lockdown](https://github.com/ansible/ansible-lockdown)** [![GitHub_Stars](https://img.shields.io/github/stars/ansible/ansible-lockdown?style=social&color=white)](https://github.com/ansible/ansible-lockdown/stargazers)  
   🔒 Automated compliance remediation playbooks (GPLv3) maintaining alignment with DISA STIGs and CIS Benchmark controls across Linux and Windows operating systems. Translates compliance audit requirements into self-healing infrastructure automation.
 
-- **[Compliance Masonry](https://github.com/opencontrol/compliance-masonry)** [![GitHub stars](https://img.shields.io/github/stars/opencontrol/compliance-masonry?style=social&color=white)](https://github.com/opencontrol/compliance-masonry/stargazers)  
+- **[Compliance Masonry](https://github.com/opencontrol/compliance-masonry)** [![GitHub_Stars](https://img.shields.io/github/stars/opencontrol/compliance-masonry?style=social&color=white)](https://github.com/opencontrol/compliance-masonry/stargazers)  
   🧱 CLI tool (Apache-2.0) leveraging the OpenControl schema to construct machine-readable System Security Plans (SSP) and compliance documentation. Maps internal organizational controls to NIST 800-53, FedRAMP, and international compliance frameworks.
 
-- **[The Openlane Core](https://github.com/theopenlane/core)** [![GitHub stars](https://img.shields.io/github/stars/theopenlane/core?style=social&color=white)](https://github.com/theopenlane/core/stargazers)  
+- **[The Openlane Core](https://github.com/theopenlane/core)** [![GitHub_Stars](https://img.shields.io/github/stars/theopenlane/core?style=social&color=white)](https://github.com/theopenlane/core/stargazers)  
   🚀 Permissive open-source compliance automation platform (Apache-2.0) serving as a self-hosted alternative to Vanta and Drata. Supports SOC 2, GDPR, ISO 27001, and NIST 800-53 with fine-grained authorization via OpenFGA, Go, and PostgreSQL.
 
-- **[MITRE Heimdall2](https://github.com/mitre/heimdall2)** [![GitHub stars](https://img.shields.io/github/stars/mitre/heimdall2?style=social&color=white)](https://github.com/mitre/heimdall2/stargazers)  
+- **[MITRE Heimdall2](https://github.com/mitre/heimdall2)** [![GitHub_Stars](https://img.shields.io/github/stars/mitre/heimdall2?style=social&color=white)](https://github.com/mitre/heimdall2/stargazers)  
   🖥️ Enterprise visual compliance dashboard (Apache-2.0) developed by MITRE for aggregating, viewing, and exporting multi-framework security and compliance evaluation results from InSpec, OpenSCAP, and automated scanners.
 
-- **[MITRE SAF (Security Automation Framework)](https://github.com/mitre/saf)** [![GitHub stars](https://img.shields.io/github/stars/mitre/saf?style=social&color=white)](https://github.com/mitre/saf/stargazers)  
+- **[MITRE SAF (Security Automation Framework)](https://github.com/mitre/saf)** [![GitHub_Stars](https://img.shields.io/github/stars/mitre/saf?style=social&color=white)](https://github.com/mitre/saf/stargazers)  
   🛠️ CLI and developer toolkit (Apache-2.0) streamlining end-to-end security and compliance validation. Normalizes vulnerability and compliance scanning results across disparate tools into standardized OSCAL and Heimdall data formats.
 
-- **[Conformiti](https://github.com/dboudreau00/Conformiti)** [![GitHub stars](https://img.shields.io/github/stars/dboudreau00/Conformiti?style=social&color=white)](https://github.com/dboudreau00/Conformiti/stargazers)  
+- **[Conformiti](https://github.com/dboudreau00/Conformiti)** [![GitHub_Stars](https://img.shields.io/github/stars/dboudreau00/Conformiti?style=social&color=white)](https://github.com/dboudreau00/Conformiti/stargazers)  
   📑 Open-source GRC compliance tool for SaaS products managing the full audit lifecycle. Pre-loaded with SOC 2, ISO 27001:2022, and PCI DSS v4.0.1 control libraries (217 controls), document-segregated evidence trees, and an immutable in-app audit trail.
 
-- **[Lula](https://github.com/defenseunicorns/lula)** [![GitHub stars](https://img.shields.io/github/stars/defenseunicorns/lula?style=social&color=white)](https://github.com/defenseunicorns/lula/stargazers)  
+- **[Lula](https://github.com/defenseunicorns/lula)** [![GitHub_Stars](https://img.shields.io/github/stars/defenseunicorns/lula?style=social&color=white)](https://github.com/defenseunicorns/lula/stargazers)  
   🦄 Compliance-as-code validation engine (Apache-2.0) built on OSCAL (Open Security Controls Assessment Language). Bridges Kubernetes cloud infrastructure state with automated compliance evidence generation and non-conformance detection.
 
-- **[Evidentia](https://github.com/Polycentric-Labs/evidentia)** [![GitHub stars](https://img.shields.io/github/stars/Polycentric-Labs/evidentia?style=social&color=white)](https://github.com/Polycentric-Labs/evidentia/stargazers)  
+- **[Evidentia](https://github.com/Polycentric-Labs/evidentia)** [![GitHub_Stars](https://img.shields.io/github/stars/Polycentric-Labs/evidentia?style=social&color=white)](https://github.com/Polycentric-Labs/evidentia/stargazers)  
   🏛️ Open-source GRC platform tailored for FedRAMP High, CMMC Level 2, and EU sovereign cloud environments. Native OSCAL architecture with CI-driven gap analysis GitHub Actions, AI-assisted risk statement generation, and Sigstore cryptographic evidence signing.
 
-- **[GRCX](https://github.com/grcx-dev/grcx)** [![GitHub stars](https://img.shields.io/github/stars/grcx-dev/grcx?style=social&color=white)](https://github.com/grcx-dev/grcx/stargazers)  
+- **[GRCX](https://github.com/grcx-dev/grcx)** [![GitHub_Stars](https://img.shields.io/github/stars/grcx-dev/grcx?style=social&color=white)](https://github.com/grcx-dev/grcx/stargazers)  
   📡 Regulatory radar for financial compliance teams monitoring publications from BoE, FCA, MAS, SEC, and ESMA. Employs LLM-driven control mapping, severity scoring, and a cryptographically chained append-only SHA-256 audit log.
 
-- **[Cairn](https://github.com/frousselet/cairn)** [![GitHub stars](https://img.shields.io/github/stars/frousselet/cairn?style=social&color=white)](https://github.com/frousselet/cairn/stargazers)  
+- **[Cairn](https://github.com/frousselet/cairn)** [![GitHub_Stars](https://img.shields.io/github/stars/frousselet/cairn?style=social&color=white)](https://github.com/frousselet/cairn/stargazers)  
   ⏳ Self-hosted GRC platform (GNU AGPL) covering ISO 27001 governance, ISO 27005 risk analysis, inter-framework requirement mapping, Trust Center publishing, REST/MCP agent APIs, and statutory incident notification countdown clocks (GDPR, NIS2, DORA).
 
 ---
